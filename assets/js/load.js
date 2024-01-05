@@ -7,8 +7,11 @@ document.getElementById('translateButton').addEventListener('click', () => {
     if(page == 'index.html'){
       window.location="index-en.html";
     }
-    else{
+    else if(page == "index-en.html"){
       window.location = "index.html";
+    }
+    else{
+      window.location="index-en.html";
     }
 });
 
